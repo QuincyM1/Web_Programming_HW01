@@ -1,0 +1,46 @@
+body {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+
+    font-family: sans-serif;
+    background-image: url('background_image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+#headshot {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+#headshot {
+    width: 100px;
+    height: auto;
+}
+
+#assignments tr:nth-child(even) {
+    background-color: orange;
+}
+
+#quote {
+    position: absolute;
+    top: 100pt;
+    right: 100pt;
+}
